@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+.wrapper{height:100vh;width:100%;}
+.logo{height:12vh;width:100%;box-shadow: 0 0px 3px 1px;}
+.photo,.logout{float: left;}
+.photo{line-height: 18vh;height:12vh;width:15%;}
+.logout{height:12vh;width:10%;;line-height: 12vh;margin-left: 75%;}
+.logout button{background-color: rgb(235, 62, 62);height: 5vh;}
+.navigation{width:100%;height:18vh;display:flex;}
+.navigation:hover{cursor: pointer;}
+.nav{width: 92.4%;height:18vh;display: flex;background-color: rgb(12, 12, 41)}
+.person{width:16.5% ;height: 18vh;color: black;border-right: 2px solid black;background-color: rgb(252, 186, 64);font-weight: 800;}
+.humber{height: 10vh;width:4%;background-color: transparent;color: white;}
+.person img{margin-left:40%;}
+img{border-radius: 50%;margin-top: 2vh;}
+ul{display: flex;gap: 4em;color: white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;line-height: 8vh;margin-left: 40%;}
+li{text-decoration: none;}
+.container{width: 100%;height: 80vh;display:flex;}
+.tab{width: 15%;height:80vh ;color:white;background-color: rgb(12, 12, 41);overflow-y: scroll;border-bottom: 2px solid rgb(12, 12, 41);   grid-gap: 10px;}
+.tab button{height:5vh;width:100% ;border:1px solid black;background-color: transparent;color: white;font-weight: 900;}
+.tabcontent{width:85% ;height:100% ;box-shadow: 0 1px 2px 1px 1px;display:flex;overflow-y: scroll;;margin-bottom: 20px;padding-left: 7%;}
+.tab button:hover{cursor: pointer;background-color: white;color:black;border:1px solid orange;}
+.p11{width:20% ;height: 36vh;border: 1px solid rgb(218, 211, 211);padding-top: 12%;margin: 5vh 5%;float: left;}
+.one{width: 100%;height: 16.1vh;border: 1px solid rgb(218, 211, 211);}
+.footer{height:10vh;width:100%;border-bottom: 2px solid black;border-left: 2px solid black;border-right:2px solid black ;}
+
+.dropbtn {background-color: transparent; color: white;padding: 16px;font-size: 20px;border: none;width:100%;height:10vh;}
+.dropdown {position: relative;display: inline-block;width:20%;height: 10vh;margin-top: 4vh;font-weight: 900;}
+.dropdown-content {display: none;position: absolute;background-color: #f1f1f1;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;width:100%;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: rgb(151, 148, 148);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;cursor: pointer;}
